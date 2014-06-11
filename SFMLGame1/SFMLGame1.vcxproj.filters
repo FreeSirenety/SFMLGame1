@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b8e522f0-06b8-46be-9824-0e26d5b258ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header">
+      <UniqueIdentifier>{52f51f2a-b35f-427a-aa4d-bf106b3967de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{dc8079fd-d3d9-4ed9-9c3c-e0934634f5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{701c93b2-1264-4df9-86d2-9b276f4d1ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Header">
+      <UniqueIdentifier>{116627ff-4f5d-4c24-af82-d79e90e1ab14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Source">
+      <UniqueIdentifier>{a36a4034-5ff6-4a53-9580-9892610a58ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{bfc85f1a-7fc7-4e94-9c46-6d13620ae14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates\Header">
+      <UniqueIdentifier>{a21f8da0-5c50-4cda-ada1-d7e983062831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates\Source">
+      <UniqueIdentifier>{7e6e55d1-e04e-498c-b1b4-75822504cb29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObjects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>GameObjects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObjects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>GameStates\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObjects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>GameObjects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>GameStates\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
